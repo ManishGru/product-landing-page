@@ -14,7 +14,6 @@ body{
     width: 100%;
     height:75px;
     margin-bottom: 85px;
-
 }
 #header-img{
     flex-grow: 1;
@@ -27,17 +26,17 @@ body{
 #nav-bar{
     flex-grow: 20;
 }
-#links{
+.links{
     list-style-type:none;
     margin:0;
     padding:0;
     overflow:hidden;
     float:right;
 }
-#links li{
+.links li{
     float:left;
 }
-.nav-link{
+.nav-link,.footlink{
     text-align:center;
     text-decoration: none;
     color: black;
@@ -105,4 +104,30 @@ body{
     text-align: center;
     margin-bottom:20px;
     font-size:20px;
+}
+#fo{
+    margin:20px;
+}
+#form{
+    margin:auto;
+}
+@media screen and (max-width:300){
+    .flexcont{
+        display:flex;
+        flex-direction:column;
+    }
+}
+#footer{
+    width:100%;
+    height: 75px;
+    background:rgb(116, 94, 94);
+    padding: 10px 0 0 0;
+}
+#info{
+    float:right;
+}
+#copyright{
+    float: right;
+    font-size: 20px;
+    margin:20px 100px 0 0 ;
 }
